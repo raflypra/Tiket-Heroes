@@ -32,6 +32,8 @@
 		F91FB873258BC94200F20C2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB86B258BC94200F20C2B /* HomeViewController.swift */; };
 		F91FB874258BC94200F20C2B /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB86D258BC94200F20C2B /* HomeProtocols.swift */; };
 		F91FB875258BC94200F20C2B /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB86F258BC94200F20C2B /* HomeServices.swift */; };
+		F91FB883258BDDF600F20C2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB882258BDDF600F20C2B /* DetailViewController.swift */; };
+		F91FB888258BDEAC00F20C2B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB887258BDEAC00F20C2B /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		F91FB86B258BC94200F20C2B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F91FB86D258BC94200F20C2B /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		F91FB86F258BC94200F20C2B /* HomeServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
+		F91FB882258BDDF600F20C2B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F91FB887258BDEAC00F20C2B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				F91FB866258BC94200F20C2B /* HomeViewModel.swift */,
+				F91FB887258BDEAC00F20C2B /* DetailViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				F91FB86B258BC94200F20C2B /* HomeViewController.swift */,
+				F91FB882258BDDF600F20C2B /* DetailViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -551,8 +557,10 @@
 				F91FB84F258BC87000F20C2B /* AppConfig.swift in Sources */,
 				F91FB7F9258BC4E400F20C2B /* AppDelegate.swift in Sources */,
 				F91FB7FB258BC4E400F20C2B /* SceneDelegate.swift in Sources */,
+				F91FB888258BDEAC00F20C2B /* DetailViewModel.swift in Sources */,
 				F91FB871258BC94200F20C2B /* HomeModel.swift in Sources */,
 				F91FB848258BC84C00F20C2B /* ColorExtension.swift in Sources */,
+				F91FB883258BDDF600F20C2B /* DetailViewController.swift in Sources */,
 				F91FB870258BC94200F20C2B /* HomeViewModel.swift in Sources */,
 				F91FB873258BC94200F20C2B /* HomeViewController.swift in Sources */,
 				F91FB875258BC94200F20C2B /* HomeServices.swift in Sources */,

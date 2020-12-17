@@ -99,19 +99,12 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let model       = viewModel.dataModel.sdmRecommendation?[indexPath.row]
-//        let photoURL    = model?.photoProfileUrl ?? AppConfig.DEF_FAIL_IMG
-//        progressView.show(self)
-//        Alamofire.request(photoURL).responseImage { response in
-//            self.progressView.hide()
-//            if case .success(let image) = response.result {
-//                let photos                                  = [AXPhoto(image: image)]
-//                let dataSource                              = AXPhotosDataSource(photos: photos)
-//                let photosViewController                    = AXPhotosViewController(dataSource: dataSource)
-//                photosViewController.modalPresentationStyle = .fullScreen
-//                self.present(photosViewController, animated: true)
-//            }
-//        }
+        let model       = viewModel.dataModel[indexPath.row]
+        let destVc      = MainHelper.instantiateVC(.mainStoryboard, "DetailViewController") as! DetailViewController
+        destVc.viewModel.dataModel  = model
+        destVc.title    = model.localizedName ?? ""
+        self.navigationController?.pushViewController(destVc, animated: true)
+        
     }
     
 }
