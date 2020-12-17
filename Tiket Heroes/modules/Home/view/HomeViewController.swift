@@ -102,6 +102,7 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
         let model       = viewModel.dataModel[indexPath.row]
         let destVc      = MainHelper.instantiateVC(.mainStoryboard, "DetailViewController") as! DetailViewController
         destVc.viewModel.dataModel  = model
+        destVc.viewModel.dataRaw    = viewModel.dataRaw
         destVc.title    = model.localizedName ?? ""
         self.navigationController?.pushViewController(destVc, animated: true)
         
