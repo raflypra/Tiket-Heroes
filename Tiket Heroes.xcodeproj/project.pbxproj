@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,26 @@
 		376C95B8FE35E964CFCB03B3 /* Pods_Tiket_HeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69397072C11583753D59B255 /* Pods_Tiket_HeroesTests.framework */; };
 		F91FB7F9258BC4E400F20C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB7F8258BC4E400F20C2B /* AppDelegate.swift */; };
 		F91FB7FB258BC4E400F20C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB7FA258BC4E400F20C2B /* SceneDelegate.swift */; };
-		F91FB7FD258BC4E400F20C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB7FC258BC4E400F20C2B /* ViewController.swift */; };
 		F91FB800258BC4E400F20C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91FB7FE258BC4E400F20C2B /* Main.storyboard */; };
 		F91FB803258BC4E400F20C2B /* Tiket_Heroes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F91FB801258BC4E400F20C2B /* Tiket_Heroes.xcdatamodeld */; };
 		F91FB805258BC4E700F20C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91FB804258BC4E700F20C2B /* Assets.xcassets */; };
 		F91FB808258BC4E700F20C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91FB806258BC4E700F20C2B /* LaunchScreen.storyboard */; };
 		F91FB813258BC4E800F20C2B /* Tiket_HeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB812258BC4E800F20C2B /* Tiket_HeroesTests.swift */; };
 		F91FB81E258BC4E800F20C2B /* Tiket_HeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB81D258BC4E800F20C2B /* Tiket_HeroesUITests.swift */; };
+		F91FB842258BC81300F20C2B /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB841258BC81300F20C2B /* StoryboardExtension.swift */; };
+		F91FB848258BC84C00F20C2B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB846258BC84B00F20C2B /* ColorExtension.swift */; };
+		F91FB849258BC84C00F20C2B /* MainExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB847258BC84B00F20C2B /* MainExtension.swift */; };
+		F91FB84F258BC87000F20C2B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB84D258BC87000F20C2B /* AppConfig.swift */; };
+		F91FB850258BC87000F20C2B /* URLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB84E258BC87000F20C2B /* URLConfig.swift */; };
+		F91FB858258BC8DA00F20C2B /* MainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB854258BC8DA00F20C2B /* MainHelper.swift */; };
+		F91FB859258BC8DA00F20C2B /* ReqHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB855258BC8DA00F20C2B /* ReqHelper.swift */; };
+		F91FB85A258BC8DA00F20C2B /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB856258BC8DA00F20C2B /* AlertHelper.swift */; };
+		F91FB85B258BC8DA00F20C2B /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB857258BC8DA00F20C2B /* ProgressView.swift */; };
+		F91FB870258BC94200F20C2B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB866258BC94200F20C2B /* HomeViewModel.swift */; };
+		F91FB871258BC94200F20C2B /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB868258BC94200F20C2B /* HomeModel.swift */; };
+		F91FB873258BC94200F20C2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB86B258BC94200F20C2B /* HomeViewController.swift */; };
+		F91FB874258BC94200F20C2B /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB86D258BC94200F20C2B /* HomeProtocols.swift */; };
+		F91FB875258BC94200F20C2B /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB86F258BC94200F20C2B /* HomeServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +64,6 @@
 		F91FB7F5258BC4E400F20C2B /* Tiket Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiket Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91FB7F8258BC4E400F20C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F91FB7FA258BC4E400F20C2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F91FB7FC258BC4E400F20C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F91FB7FF258BC4E400F20C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F91FB802258BC4E400F20C2B /* Tiket_Heroes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiket_Heroes.xcdatamodel; sourceTree = "<group>"; };
 		F91FB804258BC4E700F20C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +75,20 @@
 		F91FB819258BC4E800F20C2B /* Tiket HeroesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiket HeroesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91FB81D258BC4E800F20C2B /* Tiket_HeroesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiket_HeroesUITests.swift; sourceTree = "<group>"; };
 		F91FB81F258BC4E800F20C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91FB841258BC81300F20C2B /* StoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
+		F91FB846258BC84B00F20C2B /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F91FB847258BC84B00F20C2B /* MainExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExtension.swift; sourceTree = "<group>"; };
+		F91FB84D258BC87000F20C2B /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		F91FB84E258BC87000F20C2B /* URLConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConfig.swift; sourceTree = "<group>"; };
+		F91FB854258BC8DA00F20C2B /* MainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHelper.swift; sourceTree = "<group>"; };
+		F91FB855258BC8DA00F20C2B /* ReqHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReqHelper.swift; sourceTree = "<group>"; };
+		F91FB856258BC8DA00F20C2B /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		F91FB857258BC8DA00F20C2B /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		F91FB866258BC94200F20C2B /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F91FB868258BC94200F20C2B /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		F91FB86B258BC94200F20C2B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F91FB86D258BC94200F20C2B /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		F91FB86F258BC94200F20C2B /* HomeServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +129,6 @@
 				697A84870AC9AEC7B340C115 /* Pods-Tiket HeroesTests.debug.xcconfig */,
 				BF03CDC5EE1A09B0C8C9ECD5 /* Pods-Tiket HeroesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,12 +167,12 @@
 		F91FB7F7258BC4E400F20C2B /* Tiket Heroes */ = {
 			isa = PBXGroup;
 			children = (
-				F91FB7F8258BC4E400F20C2B /* AppDelegate.swift */,
-				F91FB7FA258BC4E400F20C2B /* SceneDelegate.swift */,
-				F91FB7FC258BC4E400F20C2B /* ViewController.swift */,
-				F91FB7FE258BC4E400F20C2B /* Main.storyboard */,
-				F91FB804258BC4E700F20C2B /* Assets.xcassets */,
-				F91FB806258BC4E700F20C2B /* LaunchScreen.storyboard */,
+				F91FB840258BC7CD00F20C2B /* storyboards */,
+				F91FB83F258BC7A000F20C2B /* modules */,
+				F91FB83E258BC79A00F20C2B /* helpers */,
+				F91FB83D258BC79400F20C2B /* configs */,
+				F91FB83C258BC78E00F20C2B /* sources */,
+				F91FB83B258BC78700F20C2B /* resources */,
 				F91FB809258BC4E700F20C2B /* Info.plist */,
 				F91FB801258BC4E400F20C2B /* Tiket_Heroes.xcdatamodeld */,
 			);
@@ -170,6 +195,115 @@
 				F91FB81F258BC4E800F20C2B /* Info.plist */,
 			);
 			path = "Tiket HeroesUITests";
+			sourceTree = "<group>";
+		};
+		F91FB83B258BC78700F20C2B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB804258BC4E700F20C2B /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F91FB83C258BC78E00F20C2B /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB846258BC84B00F20C2B /* ColorExtension.swift */,
+				F91FB847258BC84B00F20C2B /* MainExtension.swift */,
+				F91FB841258BC81300F20C2B /* StoryboardExtension.swift */,
+				F91FB7F8258BC4E400F20C2B /* AppDelegate.swift */,
+				F91FB7FA258BC4E400F20C2B /* SceneDelegate.swift */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		F91FB83D258BC79400F20C2B /* configs */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB84D258BC87000F20C2B /* AppConfig.swift */,
+				F91FB84E258BC87000F20C2B /* URLConfig.swift */,
+			);
+			path = configs;
+			sourceTree = "<group>";
+		};
+		F91FB83E258BC79A00F20C2B /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB856258BC8DA00F20C2B /* AlertHelper.swift */,
+				F91FB854258BC8DA00F20C2B /* MainHelper.swift */,
+				F91FB857258BC8DA00F20C2B /* ProgressView.swift */,
+				F91FB855258BC8DA00F20C2B /* ReqHelper.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		F91FB83F258BC7A000F20C2B /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB864258BC94200F20C2B /* Home */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		F91FB840258BC7CD00F20C2B /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB7FE258BC4E400F20C2B /* Main.storyboard */,
+				F91FB806258BC4E700F20C2B /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		F91FB864258BC94200F20C2B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB865258BC94200F20C2B /* viewModels */,
+				F91FB867258BC94200F20C2B /* models */,
+				F91FB869258BC94200F20C2B /* view */,
+				F91FB86C258BC94200F20C2B /* protocols */,
+				F91FB86E258BC94200F20C2B /* services */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F91FB865258BC94200F20C2B /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB866258BC94200F20C2B /* HomeViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		F91FB867258BC94200F20C2B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB868258BC94200F20C2B /* HomeModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F91FB869258BC94200F20C2B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB86B258BC94200F20C2B /* HomeViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F91FB86C258BC94200F20C2B /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB86D258BC94200F20C2B /* HomeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F91FB86E258BC94200F20C2B /* services */ = {
+			isa = PBXGroup;
+			children = (
+				F91FB86F258BC94200F20C2B /* HomeServices.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,10 +544,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91FB7FD258BC4E400F20C2B /* ViewController.swift in Sources */,
+				F91FB85A258BC8DA00F20C2B /* AlertHelper.swift in Sources */,
+				F91FB858258BC8DA00F20C2B /* MainHelper.swift in Sources */,
+				F91FB850258BC87000F20C2B /* URLConfig.swift in Sources */,
+				F91FB859258BC8DA00F20C2B /* ReqHelper.swift in Sources */,
+				F91FB84F258BC87000F20C2B /* AppConfig.swift in Sources */,
 				F91FB7F9258BC4E400F20C2B /* AppDelegate.swift in Sources */,
 				F91FB7FB258BC4E400F20C2B /* SceneDelegate.swift in Sources */,
+				F91FB871258BC94200F20C2B /* HomeModel.swift in Sources */,
+				F91FB848258BC84C00F20C2B /* ColorExtension.swift in Sources */,
+				F91FB870258BC94200F20C2B /* HomeViewModel.swift in Sources */,
+				F91FB873258BC94200F20C2B /* HomeViewController.swift in Sources */,
+				F91FB875258BC94200F20C2B /* HomeServices.swift in Sources */,
+				F91FB849258BC84C00F20C2B /* MainExtension.swift in Sources */,
+				F91FB842258BC81300F20C2B /* StoryboardExtension.swift in Sources */,
 				F91FB803258BC4E400F20C2B /* Tiket_Heroes.xcdatamodeld in Sources */,
+				F91FB874258BC94200F20C2B /* HomeProtocols.swift in Sources */,
+				F91FB85B258BC8DA00F20C2B /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
