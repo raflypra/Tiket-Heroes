@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - JGProgressHUD (2.2)
+  - LoadingPlaceholderView (0.0.2)
+  - SwiftMessages (8.0.3):
+    - SwiftMessages/App (= 8.0.3)
+  - SwiftMessages/App (8.0.3)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8)
+  - AlamofireImage (~> 3.5)
+  - JGProgressHUD
+  - LoadingPlaceholderView
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - JGProgressHUD
+    - LoadingPlaceholderView
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  LoadingPlaceholderView: e913f5ae2673612d405ce395acca7cedb1bfaa81
+  SwiftMessages: 063ec9ffea3ffa7d17ba595157a9ec78e4fe045f
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 348c3a20fe30de21dc730490cc7b4926caebda4b
+
+COCOAPODS: 1.8.4
