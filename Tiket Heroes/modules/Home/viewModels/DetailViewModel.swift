@@ -36,12 +36,13 @@ class DetailViewModel {
         sender.thumbIv.roundCorners([.topLeft, .topRight], radius: AppConfig.ROUND_CARDVIEW)
         
         var similar                 = [HomeModel]()
+        let filterByAttr            = dataRaw.filter{ $0.primaryAttr == attr }
         if(attr == "agi"){
-            similar                 = dataRaw.sorted{ $0.moveSpeed ?? 0 > $1.moveSpeed ?? 0 }
+            similar                 = filterByAttr.sorted{ $0.moveSpeed ?? 0 > $1.moveSpeed ?? 0 }
         }else if(attr == "str"){
-            similar                 = dataRaw.sorted{ $0.baseAttackMax ?? 0 > $1.baseAttackMax ?? 0 }
+            similar                 = filterByAttr.sorted{ $0.baseAttackMax ?? 0 > $1.baseAttackMax ?? 0 }
         }else if(attr == "int"){
-            similar                 = dataRaw.sorted{ $0.baseMana ?? 0 > $1.baseMana ?? 0 }
+            similar                 = filterByAttr.sorted{ $0.baseMana ?? 0 > $1.baseMana ?? 0 }
         }
         var i = 0
         for sim in similar {
