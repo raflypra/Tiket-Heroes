@@ -43,7 +43,6 @@ class DetailViewModel {
         }else if(attr == "int"){
             similar                 = dataRaw.sorted{ $0.baseMana ?? 0 > $1.baseMana ?? 0 }
         }
-        print(similar)
         var i = 0
         for sim in similar {
             dataModelSimilar.append(sim)

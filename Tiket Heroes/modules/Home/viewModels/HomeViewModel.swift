@@ -35,9 +35,11 @@ class HomeViewModel {
             cell.filterLbl.text     = model
             
             if(sender.filter == model){
-                cell.cardView.backgroundColor   = .red
+                cell.cardView.backgroundColor   = UIColor(hex: "D32F2F")
+                cell.filterLbl.textColor        = .white
             }else{
-                cell.cardView.backgroundColor   = .darkGray
+                cell.cardView.backgroundColor   = .white
+                cell.filterLbl.textColor        = .label
             }
             
             cell.cardView.customRoundedView(radius: AppConfig.ROUND_CARDVIEW)

@@ -10,6 +10,7 @@
 		17CA13A66C455489472E1579 /* Pods_Tiket_Heroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D21DBAF36527D23ADA1365 /* Pods_Tiket_Heroes.framework */; };
 		1FE97C4EC613A6AA9E47D876 /* Pods_Tiket_Heroes_Tiket_HeroesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7585547712A10B96968D003 /* Pods_Tiket_Heroes_Tiket_HeroesUITests.framework */; };
 		376C95B8FE35E964CFCB03B3 /* Pods_Tiket_HeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69397072C11583753D59B255 /* Pods_Tiket_HeroesTests.framework */; };
+		F917983F258C5916008C224F /* CacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F917983E258C5916008C224F /* CacheHelper.swift */; };
 		F91FB7F9258BC4E400F20C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB7F8258BC4E400F20C2B /* AppDelegate.swift */; };
 		F91FB7FB258BC4E400F20C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FB7FA258BC4E400F20C2B /* SceneDelegate.swift */; };
 		F91FB800258BC4E400F20C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91FB7FE258BC4E400F20C2B /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		B7585547712A10B96968D003 /* Pods_Tiket_Heroes_Tiket_HeroesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiket_Heroes_Tiket_HeroesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF03CDC5EE1A09B0C8C9ECD5 /* Pods-Tiket HeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket HeroesTests.release.xcconfig"; path = "Target Support Files/Pods-Tiket HeroesTests/Pods-Tiket HeroesTests.release.xcconfig"; sourceTree = "<group>"; };
 		D2D21DBAF36527D23ADA1365 /* Pods_Tiket_Heroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiket_Heroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F917983E258C5916008C224F /* CacheHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheHelper.swift; sourceTree = "<group>"; };
 		F91FB7F5258BC4E400F20C2B /* Tiket Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiket Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91FB7F8258BC4E400F20C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F91FB7FA258BC4E400F20C2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				F91FB854258BC8DA00F20C2B /* MainHelper.swift */,
 				F91FB857258BC8DA00F20C2B /* ProgressView.swift */,
 				F91FB855258BC8DA00F20C2B /* ReqHelper.swift */,
+				F917983E258C5916008C224F /* CacheHelper.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -566,6 +569,7 @@
 				F91FB875258BC94200F20C2B /* HomeServices.swift in Sources */,
 				F91FB849258BC84C00F20C2B /* MainExtension.swift in Sources */,
 				F91FB842258BC81300F20C2B /* StoryboardExtension.swift in Sources */,
+				F917983F258C5916008C224F /* CacheHelper.swift in Sources */,
 				F91FB803258BC4E400F20C2B /* Tiket_Heroes.xcdatamodeld in Sources */,
 				F91FB874258BC94200F20C2B /* HomeProtocols.swift in Sources */,
 				F91FB85B258BC8DA00F20C2B /* ProgressView.swift in Sources */,
